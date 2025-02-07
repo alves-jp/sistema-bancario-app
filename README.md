@@ -23,5 +23,5 @@ O sistema permite aos usuários criar contas, depositar dinheiro, sacar dinheiro
 5. **Sair**: Sai do aplicativo.
 
 
-##Observação
+## Observação
 Os nomes das variáveis e do sistema estão em português para melhor compreensão.
