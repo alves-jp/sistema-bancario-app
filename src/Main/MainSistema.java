@@ -1,5 +1,9 @@
+package Main;
+
+import Main.entities.InputUtilitario;
+import Main.entities.ServicoBancario;
+
 import java.util.Locale;
-import java.util.Scanner;
 
 public class MainSistema {
     public static void main(String[] args) {

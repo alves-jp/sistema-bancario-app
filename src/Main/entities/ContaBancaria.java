@@ -1,3 +1,5 @@
+package Main.entities;
+
 public class ContaBancaria {
 
     private String conta;

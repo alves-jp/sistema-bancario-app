@@ -1,3 +1,5 @@
+package Main.entities;
+
 public class ContaPoupanca extends ContaBancaria {
 
     public ContaPoupanca(String conta, int id, double saldo) {

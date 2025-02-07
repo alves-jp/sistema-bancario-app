@@ -1,3 +1,5 @@
+package Main.entities;
+
 public class ContaCorrente extends ContaBancaria{
 
     private double chequeEspecial;

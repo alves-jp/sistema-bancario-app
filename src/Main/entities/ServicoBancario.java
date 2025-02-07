@@ -1,3 +1,5 @@
+package Main.entities;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,7 +24,6 @@ public class ServicoBancario {
                 return conta;
             }
         }
-
         System.out.println("Conta não encontrada.");
         return null;
     }
@@ -59,7 +60,7 @@ public class ServicoBancario {
         }
 
         if (contas != null) {
-            System.out.println("Conta ID " + buscarConta().getId() + " criada com sucesso!");
+            System.out.println("Conta ID " + id + " criada com sucesso!");
             System.out.println();
         }
     }
@@ -74,7 +75,7 @@ public class ServicoBancario {
             System.out.println();
 
         } else {
-            System.out.println("ERRO: Nenhuma conta encontrada.");
+            System.out.println("ERRO: Conta não encontrada.");
         }
     }
 
@@ -88,7 +89,7 @@ public class ServicoBancario {
             System.out.println();
 
         } else {
-            System.out.println("ERRO: Nenhuma conta encontrada.");
+            System.out.println("ERRO: Conta não encontrada.");
         }
     }
 
@@ -100,7 +101,7 @@ public class ServicoBancario {
             System.out.println();
 
         } else {
-            System.out.println("ERRO: Nenhuma conta encontrada.");
+            System.out.println("ERRO: Conta não encontrada.");
         }
     }
 }

@@ -1,3 +1,5 @@
+package Main.entities;
+
 import java.util.Scanner;
 
 public class InputUtilitario {
